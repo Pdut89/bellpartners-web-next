@@ -130,7 +130,9 @@ export const TextContainer = styled(Flex).attrs({
   }
 `
 
-export const Title = styled(Text)`
+export const Title = styled(Text).attrs({
+  as: 'h1'
+})`
   white-space: nowrap;
   font-size: 2.8rem;
   font-weight: ${({ theme }) => theme.fontWeights.bold};
