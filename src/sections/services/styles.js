@@ -48,7 +48,7 @@ export const CategoryImage = styled(Image)`
 `
 
 export const Subtitle = styled(Text).attrs({
-  as: 'h3',
+  as: 'p',
   color: 'primary.main'
 })`
   font-size: ${({ theme }) => theme.fontSizes.xxxlarge};

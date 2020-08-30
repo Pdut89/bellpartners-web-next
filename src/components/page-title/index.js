@@ -2,7 +2,7 @@ import styled from "styled-components"
 import Text from '../text'
 
 const PageTitle = styled(Text).attrs({
-  as: 'h1',
+  as: 'p',
   color: 'primary.dark'
 })`
   font-size: 3rem;

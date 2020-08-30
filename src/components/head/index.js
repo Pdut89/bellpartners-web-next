@@ -16,7 +16,6 @@ const Head = () => (
     <meta name="msapplication-TileColor" content="#ffffff" />
     <meta name="theme-color" content="#ffffff" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Bell Partners Registered Accountants and Reviewers (SAIPA)" />
   </NextHead>
 )
 

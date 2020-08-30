@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-
 import axios from 'axios'
 import smoothscroll from 'smoothscroll-polyfill'
 import { ThemeProvider } from "styled-components"
+import { NextSeo } from 'next-seo';
 
 import Head from '../components/head'
 
@@ -80,6 +80,17 @@ class Index extends Component {
       <div>
         <Head />
         <main>
+          <NextSeo
+            title="Bell Partners Pty Ltd | Harrismith, Free State, South Africa."
+            description="Bell Partners Registered Accountants and Reviewers (SAIPA). Services includes maintaining Accounting Records, Financial Statements & Reporting, Business Planning, Auditing (Outsourced), VAT, PAYE, Tax Returns, Payroll Services, CIPC services, Commissioner of Oaths & more. Located at 33 Murray Street, Harrismith, 9880."
+            openGraph={{
+              url: 'https://bellpartners.co.za',
+              title: 'Bell Partners Registered Accountants and Reviewers (SAIPA)',
+              description: 'Services includes maintaining Accounting Records, Financial Statements & Reporting, Business Planning, Auditing (Outsourced), VAT, PAYE, Tax Returns, Payroll Services, CIPC services, Commissioner of Oaths & more. Located at 33 Murray Street, Harrismith, 9880.',
+              site_name: 'Bell Partners Pty Ltd | Harrismith',
+            }}
+          />
+          
           <ThemeProvider theme={theme}>
             <Flex flexDirection="column" width="100vw">
               <Header visibleSection={section}/>
