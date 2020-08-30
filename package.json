@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "postbuild": "next-on-netlify"
   },
   "dependencies": {
     "axios": "^0.20.0",
@@ -14,6 +15,7 @@
     "just-toasty": "^1.4.0",
     "next": "9.5.2",
     "next-images": "^1.4.1",
+    "next-on-netlify": "^2.3.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "smoothscroll-polyfill": "^0.4.4",
