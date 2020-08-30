@@ -49,7 +49,7 @@ const Services = () => {
 
   const renderService = ({ title, services: s, image}, i) => (
     <ListContainer key={title} reverse={i % 2 === 0}>
-      <CategoryImage src={image} />
+      <CategoryImage src={image} title={title} alt={title} />
       <Flex flexDirection="column">
         <Subtitle>{title}</Subtitle>
 

@@ -54,6 +54,8 @@ const Header = ({ visibleSection }) => {
             src={logo}
             width="7rem"
             m="0 2rem 0 1rem"
+            title="Bell Partners Logo"
+            alt="Bell Partners Logo"
           />
           <TextContainer>
             <Title

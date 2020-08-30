@@ -50,6 +50,8 @@ const Banner = ({ title, quote }) => {
               src={seesaLogo}
               width="100%"
               height="100%"
+              alt="seesa logo"
+              title="seesa logo"
             />
           </SeesaLogo>
 
@@ -58,6 +60,8 @@ const Banner = ({ title, quote }) => {
               src={saipaLogo}
               width="100%"
               height="100%"
+              alt="SAIPA logo"
+              title="SAIPA logo"
             />
           </SaipaLogo>
         </Flex>

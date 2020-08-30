@@ -83,6 +83,7 @@ class Index extends Component {
           <NextSeo
             title="Bell Partners Pty Ltd | Harrismith, Free State, South Africa."
             description="Bell Partners Registered Accountants and Reviewers (SAIPA). Services includes maintaining Accounting Records, Financial Statements & Reporting, Business Planning, Auditing (Outsourced), VAT, PAYE, Tax Returns, Payroll Services, CIPC services, Commissioner of Oaths & more. Located at 33 Murray Street, Harrismith, 9880."
+            canonical="https://bellpartners.co.za"
             openGraph={{
               url: 'https://bellpartners.co.za',
               title: 'Bell Partners Registered Accountants and Reviewers (SAIPA)',

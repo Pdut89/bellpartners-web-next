@@ -40,11 +40,11 @@ const About = () => {
               </Paragraph>
             ))}
           </Flex>
-          <AboutImage src={aboutImage} />      
+          <AboutImage src={aboutImage} title="about 1" alt="about 1" />      
         </TextContainer>    
 
         <TextContainer mt="4rem">
-          <AboutImage src={aboutImage2} />
+          <AboutImage src={aboutImage2} title="about 2" alt="about 2"/>
           <Flex 
             flexDirection="column" 
             alignItems="flex-end"
