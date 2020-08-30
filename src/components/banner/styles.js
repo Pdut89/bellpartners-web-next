@@ -46,7 +46,7 @@ export const ContentContainer = styled(Flex).attrs({
 `
 
 export const Title = styled(Text).attrs({
-  as: 'h1',
+  as: 'p',
   uppercase: true
 })`
   font-size: 3rem;
