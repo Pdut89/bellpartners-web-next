@@ -8,8 +8,17 @@
     "start": "next start"
   },
   "dependencies": {
+    "axios": "^0.20.0",
+    "babel-plugin-styled-components": "^1.11.1",
+    "formik": "^2.1.5",
+    "just-toasty": "^1.4.0",
     "next": "9.5.2",
+    "next-images": "^1.4.1",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "smoothscroll-polyfill": "^0.4.4",
+    "styled-components": "^5.1.1",
+    "styled-system": "^5.1.5",
+    "yup": "^0.29.3"
   }
 }
