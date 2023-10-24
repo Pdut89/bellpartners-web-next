@@ -67,7 +67,7 @@ class Index extends Component {
 
   awakenServer = async () => {
     try {
-      axios.get('https://virtue-mailer.herokuapp.com/')
+      await axios.get('https://virtue-mailer.herokuapp.com/')
     } catch (error) {
       console.error(error)
     }

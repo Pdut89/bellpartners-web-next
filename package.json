@@ -15,7 +15,7 @@
     "just-toasty": "^1.4.0",
     "next": "9.5.2",
     "next-images": "^1.4.1",
-    "next-on-netlify": "^2.3.2",
+    "next-on-netlify": "^3.0.1",
     "next-seo": "^4.7.3",
     "react": "16.13.1",
     "react-dom": "16.13.1",
